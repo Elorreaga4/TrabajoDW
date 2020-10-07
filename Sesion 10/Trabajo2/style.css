@@ -1,0 +1,29 @@
+body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+h2{
+    background-color: #db9b60;
+    color: #FFFFFF;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    /*padding: 5px;*/
+    background-color: #6dc98e;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 20px;
+    line-height: 40px;
+}
