@@ -1,0 +1,13 @@
+p, strong {
+    border: 1px solid;
+}
+
+#caja{
+    margin: 20px; /*cambiar a 20px*/
+    padding: 10px; /*cambiar a 10px*/
+    background: #f00;
+}
+
+#caja2{
+    background: blue;
+}

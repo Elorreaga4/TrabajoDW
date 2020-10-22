@@ -1,0 +1,37 @@
+
+/*p{
+    background-color: green;
+    text-align: right;
+}
+
+img{
+    float: right;
+}
+
+.coca{
+    background-color: yellow;
+    float: right;
+}*/
+
+#caja1{
+    background-color: white;
+    height: 1000px;
+}
+
+#caja2{
+    background-color: blue;
+    width: 600px;
+    height: 200px;
+    float: right;
+}
+
+#caja3{
+    background-color: green;
+    clear: left;
+}
+
+#caja4{
+    background-color: yellow;
+    width: 200px;
+    float: right;
+}
