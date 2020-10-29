@@ -1,0 +1,31 @@
+/*Formulario*/
+h1{
+    color: green;
+}
+form{
+    background-color: darkkhaki;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+form fieldset legend{
+    background-color: green;
+    color: white;
+}
+form input[type="button"],
+form input[type="submit"]{
+    background-color: orange;
+    color: black;
+}
+img{
+    width: 75%;
+}
+/*Posicionamiento*/
+#oscar, #formulario{
+    float: left;
+}
+#oscar{
+    width: 40%;
+}
+#formulario{
+    width: 52%;
+}

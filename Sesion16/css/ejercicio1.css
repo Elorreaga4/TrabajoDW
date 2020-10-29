@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-columns: 13% 74% 13%;
+    grid-template-rows: 150px 300px 60px;
+    grid-template-areas: "head head head" "menu contenedor enlaces" "foot foot foot";
+}
+
+header {
+    grid-area: head;
+    color: white;
+    background-color: blueviolet;
+}
+
+nav {
+    grid-area: menu;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+section {
+    grid-area: contenedor;
+    color: white;
+    background-color: indigo;
+}
+
+footer {
+    grid-area: foot;
+    color: white;
+    background-color: darkorchid;
+}
+
+aside {
+    grid-area: enlaces;
+    color: white;
+    background-color: darkmagenta;
+}
