@@ -1,0 +1,168 @@
+body{
+    font-family: Arial;
+    background-color: mediumturquoise;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "head head" "bar bar" "main nav" "foot foot" "name name" "web web";
+    grid-column-gap: 170px;
+    grid-row-gap: 10px;
+}
+.grid .a a{
+    color: black;
+}
+.a{
+    grid-area: head;
+    background-image: url("../img/celeste.jpg");
+}
+.b{
+    grid-area: bar;background-color: black;
+    color:white;
+    
+}
+.c{
+    grid-area: main;
+    background-color:white;
+    width: 210%;
+    border:1px black solid;
+    padding: 20px;
+    
+}
+.d{
+    grid-area: nav;
+    width: 80%;
+    margin-left: 300px;    
+}
+.e{
+    grid-area: name;
+    padding: 80px;
+    color: black;
+    background-image: url("../img/celeste.jpg");
+}
+.f{
+    grid-area: web;
+    background-color: black;
+    padding: 0px;
+}
+.barra{
+    color: white;
+    padding-left: 60px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#usuario{
+    width: 160px;
+    height: 190px;
+}
+#caja2{
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    color: black;
+}
+#sesion{
+    position: absolute;
+    top:30px;
+    left:1200px;
+    text-decoration: none;
+}
+pre{
+    font-family: Arial;
+}
+#imgNot1{
+    position: absolute;
+    top: 300px;
+    left: 580px;
+}
+#imgNot2{
+    position: absolute;
+    top: 460px;
+    left: 580px;    
+}
+#menu{
+    width: 50%;
+    padding: 20px ;
+    padding-left: 130px;
+    color: black;
+    border: 1px black solid;
+    background-image: url(../img/celeste.jpg);
+}
+#enlaces{
+    width: 50%;
+    padding: 20px ;
+    padding-left: 130px;
+    color:black;
+    border: 1px black solid;
+    background-image: url(../img/celeste.jpg);
+}
+#imgFoot{
+    width: 100px;
+    height: 130px;
+}
+#cajaF1{
+    position: absolute;
+    left :20px;
+    top: 660px;
+}
+#cajaF2{
+    position: absolute ;
+    left: 150px;
+    top: 645px;
+}
+#cajaF3{
+    position: absolute;
+    left: 450px;
+    top: 645px;
+}
+#cajaF4{
+    position: absolute;
+    left: 620px;
+    top: 645px;
+}
+#cajaF5{
+    position: absolute;
+    left: 820px;
+    top: 645px;
+}
+.f h3{
+    color: blanchedalmond;
+    text-align: center;
+}
+.c div{
+    position: relative;
+    left: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#boton{
+    padding: 12px;
+    border-radius: 10px;
+    position: relative;
+    right: 70px;
+    top: 30px;
+    text-decoration: none;
+    background-color: blue;
+    color: #fff;
+}
+#c2{
+    position: absolute;
+    left: 190px;
+    top: 316px;
+}
+#c3{
+    position: absolute;
+    left: 343px;
+    top: 316px;
+}
+#c4{
+    position: absolute;
+    left: 496px;
+    top: 316px;
+}
+#c5{
+    position: absolute;
+    left: 640px;
+    top: 316px;
+}

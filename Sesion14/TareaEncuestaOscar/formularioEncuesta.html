@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloFormularioEncuesta.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <main>
+        <div id="formulario">
+            <h1>Encuesta de cine: Nominadas al Oscar 2018</h1>
+            <form action="get" id="encuesta">
+                <fieldset form="encuesta">
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido"><br>
+                    <label for="dni">DNI:</label><br>
+                    <input type="text" id="dni" name="dni"><br>
+                    <label for="edad">Edad:</label><br>
+                    <input type="text" id="edad" name="edad"><br>
+                    <label for="sexo">Sexo:</label><br>
+                    <select name="sexo" id="sexo">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select>
+                </fieldset>
+                <fieldset form="encuesta">
+                    <legend>Mejor película</legend>
+                    <input type="radio" name="fmejorpelicula" id="fcbyn">
+                    <label for="fcbyn">Avatar</label><br>
+                    <input type="radio" name="fmejorpelicula" id="fdunkerque">
+                    <label for="fdunkerque">Avenger: End-Game</label><br>
+                    <input type="radio" name="fmejorpelicula" id="fdejamesalir">
+                    <label for="fdejamesalir">Joker</label>
+                </fieldset>
+                <fieldset form="encuesta">
+                    <legend>Seleccione las películas que no hayas visto</legend>
+                    <input type="checkbox" name="fehi" id="fehi">
+                    <label for="fehi">Parásitos</label><br>
+                    <input type="checkbox" name="feimo" id="feimo">
+                    <label for="feimo">Sonic</label><br>
+                    <input type="checkbox" name="taala" id="taala">
+                    <label for="taala">Tres anuncios a las afueras</label><br>
+                    <input type="checkbox" name="lfda" id="lfda">
+                    <label for="lfda">Saw 7</label><br>
+                    <input type="checkbox" name="ladybird" id="ladybird">
+                    <label for="ladybird">El vicio del poder</label>
+                </fieldset>
+                <fieldset form="encuesta">
+                    <legend>Argumento de su película preferida</legend>
+                    <textarea name="argumento" id="argumento"></textarea>
+                </fieldset>
+                <input type="button" value="Borrar formulario">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

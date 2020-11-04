@@ -1,0 +1,32 @@
+.table{
+    background-color: silver;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td,th{
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+#ti{
+    background-color:#0154A0;
+    color: white;
+}
+.subt{
+    text-align: center;
+    background-color:#0154A0 ;
+    color: white;
+}
+.entel{
+    text-align: center;
+    padding: 20px;
+}
+.Fac{
+    font-family: Arial;
+    font-size: 30px;
+    font-style: bold;
+    padding: 15px;
+    color: white;
+    background-color: #0154A0;
+}

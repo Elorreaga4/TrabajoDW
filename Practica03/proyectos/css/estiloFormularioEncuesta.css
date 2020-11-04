@@ -1,0 +1,41 @@
+/*Formulario*/
+body{
+    margin: 0;
+    padding: 0px;
+    color: white;
+    background-image: url(../img/fondo-oscar.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    color: green;
+}
+form{
+    background-color: darkkhaki;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+form fieldset legend{
+    background-color: green;
+    color: white;
+}
+form input[type="button"],
+form input[type="submit"]{
+    background-color: orange;
+    color: black;
+}
+img{
+    width: 75%;
+    position: absolute;
+    top: 30px;
+    left:200px;
+}
+/*Posicionamiento*/
+#formulario{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}

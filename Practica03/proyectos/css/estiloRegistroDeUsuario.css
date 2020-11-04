@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-image: url(../img/fondo-registroo.jpg);
+    font-family: sans-serif;
+    height: 100vh;
+}
+.login{
+    width: 400px;
+    height: 600px;
+    background-color: tan;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 40px;
+}
+.login h1{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}
+.login label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login input[type="text"],.login input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white; 
+    background-color: transparent;
+    outline: none;
+    height: 28px;  
+    color:white;
+    font-size: 16px; 
+}
+.login input[type="checkbox"]{
+    width: 5%;
+    margin-bottom: 0; 
+}
+.login input[type="submit"]{
+    margin-top:  10px;
+    border: none;
+    outline: none;
+    height: 28px;
+    background: white;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.login label[for="opcional"]{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login input[type="button"]{
+    border: none;
+    outline: none;
+    height: 28px;
+    border-radius: 20px;
+    font-size: 15px;
+}

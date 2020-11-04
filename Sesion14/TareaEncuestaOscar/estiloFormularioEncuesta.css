@@ -1,4 +1,12 @@
 /*Formulario*/
+body{
+    margin: 0;
+    padding: 0px;
+    color: white;
+    background-image: url(../TareaEncuestaOscar/fondo-oscar.jpg);
+    background-size: cover;
+    height: 100vh;
+}
 h1{
     color: green;
 }
@@ -18,14 +26,16 @@ form input[type="submit"]{
 }
 img{
     width: 75%;
+    position: absolute;
+    top: 30px;
+    left:200px;
 }
 /*Posicionamiento*/
-#oscar, #formulario{
-    float: left;
-}
-#oscar{
-    width: 40%;
-}
 #formulario{
-    width: 52%;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
 }
