@@ -1,0 +1,68 @@
+nav{
+    box-shadow: 2px 2px 5px #1d1d1d;
+}
+#header{
+    background-image: url('../img/cabecera_mod.png');
+    background-size: cover;
+    background-color: #756CF5;
+}
+#header h1, #header p{
+    text-shadow: 2px 2px 2px #756CF5;
+}
+#header h1{
+    font-size: 3em;
+}
+#header p, #header a{
+    font-size: 1.5em;
+}
+#header div.row{
+    min-height: 75vh;
+    max-height: 1439px;
+}
+#footer{
+    background-color: #1A1836;
+}
+
+.redes-sociales{
+    width: 45px;
+    
+}
+
+#carrito .card{
+    border: 1px solid #756CF5;
+}
+#carrito .card .card-header, #carrito .card .card-footer{
+    background-color: #756CF5;
+}
+/* #carrito .card-body .btn{
+    background-color: #756CF5;
+    color: white;
+} */
+/*PAQUETES*/
+ul.lista-paquete{
+    list-style-type: "✓ ";
+}
+#adquirir1,#adquirir2,#adquirir3{
+    border-style: none;
+}
+#adquirir1 {
+    background-image: url('../img/Paquetes/bronce.jpg');
+}
+#adquirir2 {
+    background-image: url('../img/Paquetes/plata.jpg');
+}
+#adquirir3 {
+    box-shadow: 5px 5px 10px #999;
+    background-image: url('../img/Paquetes/dorado.jpg');
+    font-weight: bold;
+}
+
+#alertajeje{
+    width: 100px;
+    height: 100px;
+    background-color: #756CF5;
+    margin: auto;
+    margin-top: 20px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../TareaCarritoCompras/miestilo.css">
+    <title>Carrito de Compras</title>
+</head>
+<body onload="actualizarDatos()">
+    <div id="contenedor">
+        <header>
+            <h3>Carrito de Compras</h3>
+            <hr>
+        </header>
+        <form>
+            <span>Nombre:</span>
+            <input type="text" placeholder="Ingrese el nombre" id="nombre"><br><br>
+            <span>Cantidad: </span>
+            <input type="text" placeholder="Ingrese la cantidad" id="cantidad"><br><br>
+            <span>Precio: </span>
+            <input type="text" placeholder="Ingrese el precio" id="precio"><br><br>
+            <span>Detalles: </span>
+            <input type="text" placeholder="Ingrese los detalles" id="detalles"><br><br>
+        </form>
+        <hr/>
+        <div>
+            <button class="boton1" type="button" onclick="guardarDato()"> Agregar</button>
+            <button class="boton1" type="button" onclick="recuperarDato()"> Recuperar</button>
+            <button class="boton2" type="button" onclick="eliminar()">Eliminar</button>
+            <button class="boton2" type="button" onclick="eliminarTodo()">Eliminar Todos</button>
+        </div>
+        <hr>
+        <div class="pp">
+            <h4>Productos</h4>
+       </div>
+            <span class="titu">Nombre</span> 
+            <span class="titu">Cantidad</span> 
+            <span class="titu">Precio</span>
+            <span class="titu">Detalles</span>
+            <span class="titu">Sub</span> <br>
+        <ul id="compra"></ul>
+        <span class="to">TOTAL</span><br>
+    </div>
+    <script type="text/javascript" src="../TareaCarritoCompras/script.js"></script>
+</body>
+</html>

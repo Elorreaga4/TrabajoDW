@@ -1,0 +1,14 @@
+.datosentrada{
+    width: 40%;
+    margin: auto;
+}
+
+body{
+    background-color: darkseagreen;
+    color: navy;
+}
+
+input{
+    display: block;
+    margin: 10px;
+}
